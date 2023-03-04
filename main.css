@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #575fcf;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 1024px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.container h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.container label, input{
+    font-size: 20px;
+    width: 70%;
+    
+}
+
+label{
+    display: block;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button{
+    font-size: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    width: 160px;
+}
+
+
+
